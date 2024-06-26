@@ -1,0 +1,9 @@
+.about-section__text {
+  margin: 40px 0;
+}
+
+@media screen and (max-width: 480px) {
+  .about-section__text {
+    margin: 20px 0;
+  }
+}

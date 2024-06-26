@@ -1,0 +1,13 @@
+.services-section__card_img {
+  object-fit: contain;
+  width: 314px;
+  height: 428px;
+}
+
+@media screen and (max-width: 780px) {
+  .services-section__card_img {
+    width: 290px;
+    height: 400px;
+  }
+}
+  

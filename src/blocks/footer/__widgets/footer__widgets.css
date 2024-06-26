@@ -1,0 +1,20 @@
+.footer__widgets {
+  padding: 92px 70px 91px 65px;
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  gap: 61px;
+}
+
+@media screen and (max-width: 990px) {
+  .footer__widgets {
+    padding: 80px 60px 80px 60px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .footer__widgets {
+    padding: 50px 30px 50px 30px;
+    gap: 30px;
+  }
+}

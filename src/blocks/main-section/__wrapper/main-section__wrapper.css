@@ -1,0 +1,19 @@
+.main-section__wrapper {
+  display: flex;
+  gap: 53px;
+  width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .main-section__wrapper {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .main-section__wrapper {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}

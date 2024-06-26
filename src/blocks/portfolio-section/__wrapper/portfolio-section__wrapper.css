@@ -1,0 +1,15 @@
+.portfolio-section__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 70px 0 149px;
+}
+
+@media screen and (max-width: 480px) {
+  .portfolio-section__wrapper {
+    gap: 10px;
+    flex-direction: column;
+    margin: 40px 0 80px;
+  }
+}

@@ -1,0 +1,17 @@
+.footer__widgets-container {
+  display: flex;
+  gap: 359px;
+}
+
+@media screen and (max-width: 1237px) {
+  .footer__widgets-container {
+    gap: 140px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .footer__widgets-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+}

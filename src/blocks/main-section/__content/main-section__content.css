@@ -1,0 +1,35 @@
+.main-section__content {
+  margin-top: 98px;
+  flex: 1 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1199px) {
+  .main-section__content {
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .main-section__content {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .main-section__content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .main-section__content{
+    margin: 0;
+  }
+}

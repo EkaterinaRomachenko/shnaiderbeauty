@@ -1,0 +1,14 @@
+.text_type_bold {
+  font-family: Raleway;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 27.5px;
+  text-align: left;
+}
+
+@media screen and (max-width: 480px) {
+  .text_type_bold {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}

@@ -1,0 +1,8 @@
+.training-section__card_three {
+  grid-area: 2 / 2 / 3 / 3;
+  /* height: max-content;
+  max-width: 645px; */
+  background-color: rgba(96, 68, 56, 1);
+  /* padding: 40px 45px 40px 40px; */
+  /* padding: 40px; */
+}

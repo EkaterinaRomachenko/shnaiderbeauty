@@ -1,0 +1,9 @@
+.slider__button {
+  margin-top: 10px;
+  color: rgba(209, 136, 69, 1);
+  cursor: pointer;
+}
+
+.slider__button:hover {
+  opacity: 0.8;
+}

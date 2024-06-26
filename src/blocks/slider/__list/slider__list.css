@@ -1,0 +1,17 @@
+.slider__list {
+  margin: 0;
+}
+
+.slider__list li {
+  margin-bottom: 10px;
+}
+
+.slider__list li:last-child {
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 480px) {
+  .slider__list {
+    padding: 0 0 0 15px;
+  }
+}

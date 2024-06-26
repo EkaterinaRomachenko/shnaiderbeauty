@@ -1,0 +1,6 @@
+.training-section__card_four {
+  grid-area: 3 / 1 / 4 / 3;
+  background-color: rgba(90, 109, 80, 1);
+  /* padding: 40px 43px 40px 40px;
+  padding: 40px; */
+}

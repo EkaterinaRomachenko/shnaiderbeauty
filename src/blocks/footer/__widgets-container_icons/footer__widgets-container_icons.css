@@ -1,0 +1,11 @@
+.footer__widgets-container_icons {
+  display: flex;
+  gap: 36px;
+  width: 100%;
+}
+
+.footer__widgets-container_icons img {
+  object-fit: contain;
+  width: 40.25px;
+  height: 40.25px;
+}

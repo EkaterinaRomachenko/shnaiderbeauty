@@ -1,0 +1,16 @@
+.services-section {
+  padding: 0 0 118px;
+}
+
+@media screen and (max-width: 768px) {
+  .services-section {
+    padding: 0 0 80px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .services-section {
+    padding: 0 0 60px;
+  }
+}

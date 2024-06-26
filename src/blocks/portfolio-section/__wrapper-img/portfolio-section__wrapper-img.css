@@ -1,0 +1,16 @@
+.portfolio-section__wrapper-img {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.portfolio-section__wrapper-img img {
+  width: 100%;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 480px) {
+  .portfolio-section__wrapper-img {
+    gap: 10px;
+  }
+}

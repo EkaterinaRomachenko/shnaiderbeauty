@@ -1,0 +1,12 @@
+.star-line {
+  max-width: 1440px;
+  width: 100%;
+  height: 59px;
+  object-fit: contain;
+}
+
+@media (max-width: 420px) {
+  .star-line {
+    height: 30px;
+  }
+}

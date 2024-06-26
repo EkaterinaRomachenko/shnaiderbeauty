@@ -1,0 +1,7 @@
+.popup__swiper {
+}
+
+.popup__swiper .training-section__card_one{
+  max-height: 100vh;
+  overflow: auto !important;
+}

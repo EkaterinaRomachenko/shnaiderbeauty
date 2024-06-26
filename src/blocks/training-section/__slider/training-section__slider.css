@@ -1,0 +1,12 @@
+.training-section__slider {
+  padding: 70px 0 72px;
+  position: relative;
+  z-index: 0;
+}
+
+
+@media screen and (max-width: 580px) {
+  .training-section__slider{
+    padding: 40px 0;
+  }
+}

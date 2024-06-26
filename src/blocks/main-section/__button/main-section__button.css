@@ -1,0 +1,28 @@
+.main-section__button {
+  background-color: rgba(96, 68, 56, 1);
+  padding: 20px 40px;
+  border: none;
+  border-radius: 61px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 33px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+
+.main-section__button:hover {
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 480px) {
+  .main-section__button {
+    padding: 15px 20px;
+    font-size: 20px;
+    line-height: 30px;
+    width: 130px;
+  }
+}

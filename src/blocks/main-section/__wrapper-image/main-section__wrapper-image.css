@@ -1,0 +1,19 @@
+.main-section__wrapper-image {
+  align-items: center;
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  margin: -220px 0 0;
+}
+
+.main-section__wrapper-image img {
+  object-fit: contain;
+  width: 100%;
+}
+
+@media screen and (max-width: 860px) {
+  .main-section__wrapper-image {
+    margin-top: 40px;
+  }
+}
+

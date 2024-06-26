@@ -1,0 +1,27 @@
+.training-section__card-title {
+  font-weight: 700;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  .training-section__card-title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .training-section__card-title {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+

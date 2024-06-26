@@ -1,0 +1,22 @@
+.header__navigation {
+  flex: 1 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1199px) {
+  .header__navigation {
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .header__navigation {
+    display: none;
+  }
+}

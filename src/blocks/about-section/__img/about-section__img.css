@@ -1,0 +1,11 @@
+.about-section__img {
+  flex: 1 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-section__img img {
+  object-fit: contain;
+  width: 100%;
+}

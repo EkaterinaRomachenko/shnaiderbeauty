@@ -1,0 +1,17 @@
+.services-section__button-next {
+  background-image: url("../../../images/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 53px;
+  height: 37px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .services-section__button-next {
+    display: none;
+  }
+}

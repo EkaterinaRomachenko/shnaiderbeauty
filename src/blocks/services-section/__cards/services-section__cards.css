@@ -1,0 +1,19 @@
+.services-section__cards {
+  display: flex;
+  gap: 74px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+.services-section__cards::-webkit-scrollbar {
+  height: 0px;
+}
+
+@media screen and (max-width: 990px) {
+  .services-section__cards {
+    gap: 20px;
+  }
+}

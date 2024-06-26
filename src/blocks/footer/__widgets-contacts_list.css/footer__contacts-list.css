@@ -1,0 +1,6 @@
+.footer__widgets-contacts_list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1 1;
+}

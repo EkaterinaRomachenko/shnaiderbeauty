@@ -1,0 +1,21 @@
+.about-section__wrapper {
+  margin: 40px 0;
+  width: 100%;
+  display: flex;
+  gap: 90px;
+}
+
+@media screen and (max-width: 860px) {
+  .about-section__wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-section__wrapper {
+    margin: 20px 0;
+  }
+}

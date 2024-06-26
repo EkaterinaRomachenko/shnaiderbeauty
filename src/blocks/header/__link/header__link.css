@@ -1,0 +1,16 @@
+.header__link {
+  text-decoration: none;
+  color: rgba(27, 27, 27, 1);
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 23.48px;
+  text-align: left;
+}
+
+.header__link:hover {
+  cursor: pointer;
+  color: rgba(176, 173, 141, 1);
+  font-weight: 400;
+  transition: all 0.3s ease 0s;
+}

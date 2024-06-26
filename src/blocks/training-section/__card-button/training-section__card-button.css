@@ -1,0 +1,30 @@
+.training-section__card-button {
+  border: 1px solid rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 27.5px;
+  text-align: left;
+  width: 163px;
+  display: flex;
+  justify-content: center;
+}
+
+.training-section__card-button:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(27, 27, 27, 1);
+}
+
+.training-section__card-button:focus {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(27, 27, 27, 1);
+}
+
+@media screen and (max-width: 576px) {
+  .training-section__card-button {
+    padding: 12.46px 24.92px;
+    font-size: 15px;
+    line-height: 16.5px;
+    width: 105px;
+  }
+}

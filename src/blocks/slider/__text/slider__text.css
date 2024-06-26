@@ -1,0 +1,6 @@
+.slider__text {
+  margin: 25px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

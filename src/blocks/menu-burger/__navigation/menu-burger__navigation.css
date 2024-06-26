@@ -1,0 +1,11 @@
+.menu-burger__navigation {
+  position: absolute;
+  right: 100px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  gap: 20px;
+}

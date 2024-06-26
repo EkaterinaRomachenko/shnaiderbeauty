@@ -1,0 +1,26 @@
+.services-section__card_button {
+  border: 1px solid rgba(96, 68, 56, 1);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 27.5px;
+  text-align: left;
+  color: rgba(27, 27, 27, 1);
+}
+
+.services-section__card_button:hover {
+  background-color: #604438;
+  color: rgba(255, 255, 255, 1);
+}
+
+.services-section__card_button:focus {
+  background-color: #604438;
+  color: rgba(255, 255, 255, 1);
+}
+
+
+@media screen and (max-width: 480px) {
+  .services-section__card_button {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

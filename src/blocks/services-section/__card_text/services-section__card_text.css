@@ -1,0 +1,16 @@
+.services-section__card_text {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 27.5px;
+  text-align: left;
+  text-transform: uppercase;
+  width: 100%;
+  margin: 25px 0 15px;
+  height: 64px;
+}
+
+@media screen and (max-width: 480px) {
+  .services-section__card_text {
+    font-size: 20px;
+  }
+}

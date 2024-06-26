@@ -1,0 +1,10 @@
+.main-section__approach {
+  margin: 25px 0;
+  padding: 0 0 0 18px;
+}
+
+@media screen and (max-width: 420px) {
+  .main-section__approach {
+    padding: 0;
+  }
+}

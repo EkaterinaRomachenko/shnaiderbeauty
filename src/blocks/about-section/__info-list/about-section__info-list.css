@@ -1,0 +1,26 @@
+.about-section__info-list {
+  font-family: "Raleway";
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 33px;
+  text-align: left;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.about-section__info-list:last-child {
+  margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 480px) {
+  .about-section__info-list {
+    font-size: 14px;
+    line-height: 25px;
+    gap: 10px;
+  }
+}

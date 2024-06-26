@@ -1,0 +1,25 @@
+.services-section__wrapper {
+  margin: 70px 0 0;
+  display: flex;
+  gap: 57px;
+  align-items: center;
+}
+
+@media screen and (max-width: 990px) {
+  .services-section__wrapper {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .services-section__wrapper {
+    margin: 40px 0 0;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .services-section__wrapper {
+    margin: 20px 0 0;
+  }
+}

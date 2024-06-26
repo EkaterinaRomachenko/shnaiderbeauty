@@ -1,0 +1,17 @@
+.training-section__card {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .training-section__card {
+    justify-content: space-between;
+    padding: 20px;
+  }
+}
+

@@ -1,0 +1,20 @@
+.footer__widgets-contacts {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+  flex: 1 1;
+  gap: 47px;
+}
+
+@media screen and (max-width: 990px) {
+  .footer__widgets-contacts {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer__widgets-contacts {
+    gap: 30px;
+  }
+}

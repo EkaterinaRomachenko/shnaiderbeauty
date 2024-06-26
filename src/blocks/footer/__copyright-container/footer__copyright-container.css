@@ -1,0 +1,5 @@
+.footer__copyright-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+}
